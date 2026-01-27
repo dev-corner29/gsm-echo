@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+tokio-tungstenite = "*"
+tokio = { version = "*", features = ["io-std", "macros", "net", "rt-multi-thread", "time"] }
+futures-util = "*"
+env_logger = "*"
